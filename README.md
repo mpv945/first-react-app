@@ -1,3 +1,11 @@
+#  创建React项目 [vscode使用说明](https://code.visualstudio.com/docs),[官网文档](https://reactjs.org/docs/create-a-new-react-app.html) 可以通过VS Code 安装 eslint 插件（检查ES语法）
+
+## 配置环境
+  1. cd到D:\workspace\vscode，执行npx create-react-app first-react-app（这条命令会临时安装 create-react-app 包，命令完成后create-react-app 会删掉，不会出现在 global 中。下次再执行，还是会重新临时安装。）；比npm install -g create-react-app全局安装，再create-react-app my-app 方式污染少
+  2. github创建create-react-app 项目，然后备份初始化的项目，执行 git clone https://github.com/mpv945/first-react-app.git
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
